@@ -4,12 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Calculadora IMC</title>
+    <link rel="stylesheet" href="./style.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
 
     <main class="container">
     
     <h1>Calculadora IMC</h1>
+    <br>
 
     <form action="" id="form">
 
@@ -21,14 +28,16 @@
         <br><br>
         <label for="altura">Insira sua altura: </label>
         <input type="text" name="altura" id="altura" required>
-        <br><br>
-        <button type="submit">Calcular</button>
+        <br><br><br>
+        <div class="bnt">
+        <button type="submit" id="button">Calcular</button>
+        </div>
     </form>
 
     <P id="result"></P>
 
-    </main>
 
+    </main>
 
 <script src="script.js"></script>
 </body>
